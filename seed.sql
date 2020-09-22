@@ -8,8 +8,7 @@ CREATE TABLE "users" (
   "id" serial PRIMARY KEY,
   "email" varchar(200) UNIQUE,
   "first_name" varchar(150),
-  "last_name" varchar(150),
-  "hash" text
+  "last_name" varchar(150)
 );
 
 CREATE TABLE "users_auth"(
